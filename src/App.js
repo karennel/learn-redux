@@ -10,7 +10,7 @@ class App extends Component {
 
     return (
       <div>
-        <Counter value="value" 
+        <Counter value={"value"} 
         onIncrement={() => console.log('increment')}
         onDecrement={()=> console.log('decrement')}
         />
